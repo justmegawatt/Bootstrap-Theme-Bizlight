@@ -7786,4 +7786,21 @@ button.close {
 .panel-heading h4 {
   color: #fff;
 }
+
+.section-c {
+  padding: 60px 0;
+  background-color: #1a8c97;
+  text-align: center;
+  color: #fff;
+}
+
+.section-c .btn-primary {
+  background-color: #13646b;
+}
+
+footer {
+  background-color: #13646b;
+  color: #fff;
+  padding: 30px;
+}
 /*# sourceMappingURL=app.css.map */

@@ -48,3 +48,20 @@
 .panel-heading h4 {
     color: set-text-color($main-color);
 }
+
+.section-c {
+    padding: 60px 0;
+    background-color: $main-color;
+    text-align: center;
+    color: set-text-color($main-color);
+
+    .btn-primary {
+        background-color: darken($main-color, 10%);
+    }
+}
+
+footer {
+    background-color: darken($main-color, 10%);
+    color: set-text-color($main-color);
+    padding: 30px;
+}
