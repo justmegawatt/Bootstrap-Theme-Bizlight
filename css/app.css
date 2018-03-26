@@ -6528,7 +6528,7 @@ button.list-group-item-danger.active:focus {
 
 .panel-default > .panel-heading {
   color: #333333;
-  background-color: #f5f5f5;
+  background-color: #1a8c97;
   border-color: #ddd;
 }
 
@@ -6537,7 +6537,7 @@ button.list-group-item-danger.active:focus {
 }
 
 .panel-default > .panel-heading .badge {
-  color: #f5f5f5;
+  color: #1a8c97;
   background-color: #333333;
 }
 
@@ -7772,5 +7772,18 @@ button.close {
 
 .section-a .section-icon {
   font-size: 5em;
+}
+
+.section-b {
+  background-color: #e6ebf1;
+  padding: 30px;
+}
+
+.section-b img {
+  width: 100%;
+}
+
+.panel-heading h4 {
+  color: #fff;
 }
 /*# sourceMappingURL=app.css.map */

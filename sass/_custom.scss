@@ -35,3 +35,16 @@
         font-size: $icon-size;
     }
 }
+
+.section-b {
+    background-color: #e6ebf1;
+    padding: 30px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.panel-heading h4 {
+    color: set-text-color($main-color);
+}
