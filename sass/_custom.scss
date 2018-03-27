@@ -1,3 +1,7 @@
+// ~*~*~*~*~*~*~*~
+// navbar
+// ~*~*~*~*~*~*~*~
+
 .navbar {
     margin-bottom: 0px;
 }
@@ -5,6 +9,10 @@
 .social {
     font-size: 18px;
 }
+
+// ~*~*~*~*~*~*~*~
+// Showcase
+// ~*~*~*~*~*~*~*~
 
 .showcase {
     background: url(../img/showcase.jpg);
@@ -25,6 +33,10 @@
     }
 }
 
+// ~*~*~*~*~*~*~*~
+// Section A
+// ~*~*~*~*~*~*~*~
+
 .section-a {
     background-color: $main-color;
     text-align: center;
@@ -35,6 +47,10 @@
         font-size: $icon-size;
     }
 }
+
+// ~*~*~*~*~*~*~*~
+// Section B
+// ~*~*~*~*~*~*~*~
 
 .section-b {
     background-color: #e6ebf1;
@@ -49,6 +65,10 @@
     color: set-text-color($main-color);
 }
 
+// ~*~*~*~*~*~*~*~
+// Section C
+// ~*~*~*~*~*~*~*~
+
 .section-c {
     padding: 60px 0;
     background-color: $main-color;
@@ -60,8 +80,35 @@
     }
 }
 
+// ~*~*~*~*~*~*~*~
+// Footer
+// ~*~*~*~*~*~*~*~
+
 footer {
     background-color: darken($main-color, 10%);
     color: set-text-color($main-color);
     padding: 30px;
 }
+
+
+// ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~
+//                                    About Page
+// ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~
+
+.title-bar {
+    background: url(../img/showcase.jpg) no-repeat;
+    background-position: 0 -500px;
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    border-bottom: 4px solid $main-color;
+}
+
+.main {
+    margin: 30px 0;
+}
+
+// ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~
+//                                    Services Page
+// ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~ ~*~*~*~*~*~*~*~
+
